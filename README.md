@@ -63,8 +63,10 @@ I welcome any contributors to this mini-project. Feel free to fork the project a
 - **``\*`` -** allows you to place quotations inside of print commands
 - **``# Hello, I am a comment`` -** creates a comment line
 - **``""" comment box """`` -** creates a comment box
-- **``&&`` -** stands for 'and'
-- **``||`` -** stands for 'or'
+- **``and`` -** and operator, used for making conditions
+- **``or`` -** or operator, used for making conditions
+- **``not`` -** not operator, used for making conditions and negating a condition's output.
+
 
 ### Data Types
 - **``variable_name = number_value`` -** used to create variables for any numbers (integers and decimals)
@@ -104,11 +106,15 @@ I welcome any contributors to this mini-project. Feel free to fork the project a
 
 
 ### Conditions
-
+- **``if condition: indented_code_block`` -** Creates an if statement. The condition value can be boolean variables or typed in an inequality looking format
+- **``elif condition: indented_code_block`` -**  Creates an else if statement. Can only be used after an if statement. Functions just like an if statement
+- **``else: indented_code_block`` -** Creates an else statement. Can only be used after an if statement
 
 ### Functions
-- **``def function_name(): indented_code_block `` -**  Creates a function, the block of code is indented
+- **``def function_name(parameter1, parameter2, parameterN): indented_code_block `` -**  Creates a function, the block of code is indented. Parameters (or variables needed to use the function) are optional, you can leave it blank.
+- **``return value `` -** Used to have the function return a value. The 'value' should be a variable or math problem that involves a variable. You can't put code after the *return statement*
 - **``function_name() `` -** Calls a specified function. The output uses its own lines
+
 
 ### Classes and Objects
 
